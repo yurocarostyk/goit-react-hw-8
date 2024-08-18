@@ -1,0 +1,18 @@
+.authWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .link {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+    color: #e2e2e2;
+    transition: transform 250ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .isActive {
+    transform: scale(1.05);
+    font-weight: 600;
+  }
