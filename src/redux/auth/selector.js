@@ -10,4 +10,4 @@ export const selectLoading = (state) => state.auth.isLoading;
 
 export const selectError = (state) => state.auth.isError;
 
-export const selectLogout = (state) => state.auth.isLogout;
+ export const selectLogout = (state) => state.auth.isLogout;

@@ -2,13 +2,13 @@ import { useDispatch, useSelector } from "react-redux";
 
 import ModalComponent from "../ModalComponent/ModalComponent";
 
-import { deleteContact } from "../../redux/contacts/operations";
+import { deleteContact } from "../../redux/contacts/operation";
 
 import { MdEdit } from "react-icons/md";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 import { setCurrentContact } from "../../redux/contacts/slice";
-import { selectCurrentContact } from "../../redux/contacts/selectors";
+import { selectCurrentContact } from "../../redux/contacts/selector";
 import { useState } from "react";
 import {
   Card,

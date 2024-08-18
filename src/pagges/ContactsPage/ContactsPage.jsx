@@ -8,16 +8,16 @@ import SearchBox from "../../components/SearchBox/SearchBox";
 import Layout from "../../components/Layout/Layout";
 import Error from "../../components/Error/Error";
 
-import { fetchContacts } from "../../redux/contacts/operations";
+import { fetchContacts } from "../../redux/contacts/operation";
 import {
   selectCurrentContact,
   selectError,
   selectFilteredContacts,
-} from "../../redux/contacts/selectors";
+} from "../../redux/contacts/selector";
 
 import EditForm from "../../components/EditForm/EditForm";
 
-import css from "./ContactPage.module.css";
+import css from "./ContactsPage.module.css";
 
 export default function Contactspage() {
   const contacts = useSelector(selectFilteredContacts);

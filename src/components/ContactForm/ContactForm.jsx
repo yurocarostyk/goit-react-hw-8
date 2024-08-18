@@ -4,11 +4,11 @@ import LoadingButton from "@mui/lab/LoadingButton";
 
 import { useDispatch, useSelector } from "react-redux";
 
-import { addContact } from "../../redux/contacts/operations";
+import { addContact } from "../../redux/contacts/operation";
 
 import css from "./ContactForm.module.css";
 
-import { selectLoading } from "../../redux/contacts/selectors";
+import { selectLoading } from "../../redux/contacts/selector";
 import { TextField } from "@mui/material";
 
 export default function ContactForm() {

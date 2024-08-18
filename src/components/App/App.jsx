@@ -19,7 +19,7 @@ const RegistrationPage = lazy(() =>
 );
 const LoginPage = lazy(() => import("../../pagges/LoginPage/LoginPage"));
 
-import RestrictedRoute from "../PrivateRoute/PrivateRoute";
+import RestrictedRoute from "../RestrictedRoute/RestrictedRoute";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import RefreshingUserLayout from "../RefreshingUserLayout/RefreshingUserLayout";
 import Loader from "../Loader/Loader";
