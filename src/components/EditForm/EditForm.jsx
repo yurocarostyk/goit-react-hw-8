@@ -6,7 +6,7 @@ import { Button, TextField } from "@mui/material";
 
 import { useDispatch, useSelector } from "react-redux";
 
-import { editContact } from "../../redux/contacts/operation";
+import { editContact } from "../../redux/contacts/operations";
 
 import {
   selectCurrentContact,

@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import LoadingButton from "@mui/lab/LoadingButton";
 
 import { useDispatch, useSelector } from "react-redux";
-import { register } from "../../redux/auth/operation";
+import { register } from "../../redux/auth/operations";
 
 import { selectLoading } from "../../redux/auth/selector";
 import { TextField } from "@mui/material";

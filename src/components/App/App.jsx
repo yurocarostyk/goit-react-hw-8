@@ -9,21 +9,21 @@ import { IoCloseCircleSharp } from "react-icons/io5";
 
 import AppBar from "../AppBar/AppBar";
 import Layout from "../Layout/Layout";
-import { refreshUser } from "../../redux/auth/operation";
-const HomePage = lazy(() => import("../../pagges/HomePage/HomePage"));
+import { refreshUser } from "../../redux/auth/operations";
+const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
 const ContactsPage = lazy(() =>
-  import("../../pagges/ContactsPage/ContactsPage")
+  import("../../pages/ContactsPage/ContactsPage")
 );
 const RegistrationPage = lazy(() =>
-  import("../../pagges/RegistrationPage/RegistrationPage")
+  import("../../pages/RegistrationPage/RegistrationPage")
 );
-const LoginPage = lazy(() => import("../../pagges/LoginPage/LoginPage"));
+const LoginPage = lazy(() => import("../../pages/LoginPage/LoginPage"));
 
 import RestrictedRoute from "../RestrictedRoute/RestrictedRoute";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import RefreshingUserLayout from "../RefreshingUserLayout/RefreshingUserLayout";
 import Loader from "../Loader/Loader";
-import NotFoundPage from "../../pagges/NotFoundPage/NotFoundPage";
+import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
 
 import { selectIsRefreshing } from "../../redux/auth/selector";
 

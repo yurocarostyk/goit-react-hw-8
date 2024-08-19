@@ -8,7 +8,7 @@ import SearchBox from "../../components/SearchBox/SearchBox";
 import Layout from "../../components/Layout/Layout";
 import Error from "../../components/Error/Error";
 
-import { fetchContacts } from "../../redux/contacts/operation";
+import { fetchContacts } from "../../redux/contacts/operations";
 import {
   selectCurrentContact,
   selectError,

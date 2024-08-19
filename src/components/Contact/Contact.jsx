@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import ModalComponent from "../ModalComponent/ModalComponent";
 
-import { deleteContact } from "../../redux/contacts/operation";
+import { deleteContact } from "../../redux/contacts/operations";
 
 import { MdEdit } from "react-icons/md";
 import DeleteIcon from "@mui/icons-material/Delete";
